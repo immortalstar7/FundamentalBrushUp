@@ -2,7 +2,7 @@ import java.io.IOException;
 
 
 public class Sample {
-
+/*
 	public static void main(String args[]) throws IOException{
 		
 		   // Start typing your Java solution below
@@ -27,6 +27,6 @@ public class Sample {
             }
         }
         return stack.isEmpty();}
-		
+	*/	
 	}
 
