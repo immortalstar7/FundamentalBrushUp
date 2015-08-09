@@ -19,8 +19,6 @@ public static void main(String[] args){
 	
 	
 	
-	
-	
 	public static int countWords(String str){
         if(str == null || str.isEmpty())
             return 0;
