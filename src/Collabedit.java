@@ -169,7 +169,7 @@ public static void arrayIntersection(int[] a, int[] b){
                     
                     
                        union.add(a[i]);
-                       union.add(a[j]);
+                       union.add(b[j]);
                     
                     
                     }

@@ -10,8 +10,10 @@ public class PrintArrayPairs
 	prettyPrint( new int[]{ 2, 4, 7, 5, 9, 10, -1}, 9);
 	 } /** * Given a number finds two numbers from an array so that the sum is equal to that number k. *
 	 @param numbers * @param k */
-	 public static void printPairsUsingTwoPointers(int[] numbers, int k){ if(numbers.length < 2){ return; 
-	} 
+	 public static void printPairsUsingTwoPointers(int[] numbers, int k){
+		 if(numbers.length < 2){
+			 return; 
+		 	} 
 	Arrays.sort(numbers);
 	 int left = 0; 
 	int right = numbers.length -1; 
